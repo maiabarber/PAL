@@ -1,0 +1,31 @@
+# Specifies files and folders that Git should ignore and not track.
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Pytest
+.pytest_cache/
+
+# Test / coverage output
+.coverage
+htmlcov/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
