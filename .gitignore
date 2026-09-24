@@ -1,3 +1,5 @@
+# Specifies files and folders that Git should ignore and not track.
+
 # Python virtual environment
 .venv/
 venv/
